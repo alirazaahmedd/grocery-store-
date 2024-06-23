@@ -1,0 +1,590 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* header */
+.top-head {
+    display: flex;
+    max-width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    gap: 500px;
+
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+#im {
+    height: 28px;
+}
+
+.mobile,
+.e-mail,
+.loc,
+.oder,
+.login {
+    position: relative;
+    bottom: 5px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+#ic:hover {
+    text-decoration: underline;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(81, 81, 81);
+}
+
+/* second nav */
+.logo-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0px;
+}
+
+.prime {
+    color: orange;
+    letter-spacing: 7px;
+}
+
+.Store {
+    font-size: 20px;
+    margin-top: -18px;
+    margin-left: -10px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#search {
+    width: 50rem;
+    height: 2.7rem;
+    font-size: 22px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+
+.btn-btn {
+    position: relative;
+    top: 5px;
+}
+
+.btn-sub {
+    position: relative;
+    bottom: px;
+    left: -5px;
+    padding: 6px 40px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: orange;
+}
+
+.cart {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 25px;
+}
+
+.cart-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 9px;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: orange;
+    position: relative;
+    height: 50px;
+}
+
+div a {
+    text-decoration: none;
+    background-color: rgb(81, 81, 81);
+    color: white;
+    padding-right: 7rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    gap: 10px;
+    position: relative;
+    top: -9px;
+    left: 50px;
+}
+
+.ul-1 li {
+    display: none;
+    position: absolute;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.drop {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+option {
+    color: black;
+    border: none;
+}
+
+nav div a span:hover>.ul-1 li a {
+    display: block;
+    position: relative;
+}
+
+/* section one */
+.food-product,
+.staples-product,
+.home-product,
+.health-product,
+.brands-product,
+.bakery-product,
+.beauty-product,
+.store-product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h3 {
+    position: relative;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.food {
+    height: 300px;
+    width: 300px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.food:hover {
+    transform: scale(1.05);
+    transition: all ease-out 0.3s;
+    transform-origin: top;
+}
+
+/* section three */
+#beauty {
+    width: 98vw;
+    height: 60vmin;
+}
+
+/* section four */
+.foodd {
+    height: 200px;
+    width: 200px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hh3 {
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: 20px;
+}
+
+/* section six */
+.hhh3 {
+    margin-left: 80px;
+    font-size: 20px;
+
+}
+
+/* section eight */
+.h2 {
+    margin-left: 100px;
+}
+
+/* section 10 */
+.heading-featured,
+.heading-about,
+.heading-our,
+.heading-gallery,
+.heading-video,
+.heading-contact,
+.heading-food,
+.heading-staples,
+.heading-beauty,
+.heading-store,
+.heading-health,
+.heading-bakery,
+.heading-brand {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    letter-spacing: 6px;
+}
+
+.featured-product {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 30px;
+    gap: 30px;
+}
+
+.product-featured {
+    width: 370px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gram {
+    opacity: 0.4;
+}
+
+.cart-1 {
+    background-color: orange;
+    border-radius: 50px;
+    padding: 6px 25px;
+    width: 100px;
+}
+
+.cart-paraa {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 9px;
+}
+
+/* section 11 */
+.us {
+    position: relative;
+    margin-left: 40rem;
+    border-radius: 30px;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+    height: 400px;
+    width: 500px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+/* section 12 */
+
+.guarantees {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.our {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.or {
+    position: relative;
+    margin-left: -10px;
+}
+
+.orange {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px;
+}
+
+/* section 13 */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gall {
+    border-radius: 30px;
+    height: 400px;
+    width: 580px;
+}
+
+/* section 14 */
+.sec-forteen {
+    margin-top: 100px;
+}
+
+.viedo,
+.videos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.atta,
+.pulse,
+.shopping,
+.disnfect {
+    width: 45%;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* section 15 */
+.sec-fifteen {
+    height: 100vh;
+}
+
+.bg {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Baby-johnson {
+    height: 50vmin;
+    width: 70vmin;
+    position: relative;
+    top: -700px;
+}
+
+.costumer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+    width: 100vmin;
+    position: relative;
+    bottom: 68rem;
+    left: 45rem;
+}
+
+.cus {
+    font-size: 30px;
+    text-align: start;
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+
+.shah {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* section 16 */
+.contact-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.office {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    position: relative;
+    left: -200px;
+    gap: 20px;
+    align-items: start;
+}
+
+.address {
+    margin-left: 0px;
+}
+
+.loction {
+    position: relative;
+    top: 60px;
+    left: -60px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inp {
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(234, 232, 232);
+    margin-top: 10px;
+    color: white;
+    padding: 4px 10px;
+}
+
+.message {
+    position: relative;
+    top: 0px;
+    width: 600px;
+    height: 170px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(234, 232, 232);
+    margin-top: 10px;
+    color: white;
+    padding: 4px 10px;
+}
+
+.mess {
+    border: none;
+    background-color: rgb(234, 232, 232);
+}
+
+/* foot */
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 98vw;
+    height: 400px;
+    font-family: poppins, sans-serif;
+}
+
+.links {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.use {
+    font-size: 20px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.use:hover {
+    border-bottom: 2px solid red;
+
+}
+
+.dropp {
+    position: relative;
+    background-color: none;
+    border: none;
+    text-align: start;
+    font-size: 20px;
+}
+
+.contActs {
+    width: 30vw;
+}
+
+.lang {
+    width: 98vw;
+    height: 45px;
+    background-color: orange;
+}
+
+.change {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 29px;
+    position: relative;
+    top: 10px;
+}
+`
